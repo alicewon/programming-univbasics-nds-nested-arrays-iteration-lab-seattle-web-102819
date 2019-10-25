@@ -18,9 +18,9 @@ row_index = 0
 
         mystring = "I love #{first} and #{second} on my pizza"
         new_array.push(mystring)
-        
+
         row_index+=1
-        
+
       end
   end
   return new_array
