@@ -34,14 +34,14 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   greater_number_array = []
   row_index = 0
-  #element_index = 0
+
   while row_index < src.count do
 
     greaterstring = src[row_index].max
 
     greater_number_array.push(greaterstring)
     row_index += 1
-    #element_index += 1
+
   end
 greater_number_array
 end
