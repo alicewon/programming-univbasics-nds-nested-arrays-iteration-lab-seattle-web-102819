@@ -10,12 +10,11 @@ def join_ingredients(src)
 new_array = []
 row_index = 0
   while row_index < src.count do
-
+    #element_index = 0
       while element_index < src.count do
-        element_index = 0
-        first = src[row_index][element_index]
-        element_index +=1
-        second = src[row_index][element_index]
+        first = src[row_index][0]
+        #element_index +=1
+        second = src[row_index][1]
 
         mystring = "I love #{first} and #{second} on my pizza"
         new_array.push(mystring)
