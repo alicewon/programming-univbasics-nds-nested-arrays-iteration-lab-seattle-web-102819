@@ -43,7 +43,7 @@ def find_greater_pair(src)
     row_index += 1
     element_index += 1
   end
-
+greater_number_array
 end
 
 def total_even_pairs(src)
