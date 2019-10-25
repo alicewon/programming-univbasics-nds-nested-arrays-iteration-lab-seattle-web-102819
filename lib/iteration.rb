@@ -37,7 +37,7 @@ def find_greater_pair(src)
   element_index = 0
   while row_index < src.count do
 
-    greaterstring = src[row_index][element_index].max
+    greaterstring = src[row_index].max
 
     greater_number_array.push(greaterstring)
     row_index += 1
