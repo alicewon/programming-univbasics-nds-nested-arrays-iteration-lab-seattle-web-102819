@@ -61,7 +61,8 @@ def total_even_pairs(src)
 
   while row_index < src.count do
     if src[row_index][0]%2 == 0 && src[row_index][1]%2 == 0 then
-      even_total_array.push(src[row_index])
+      bigger = src[row_index].max
+      total += bigger
     else
 
     end
@@ -69,5 +70,5 @@ def total_even_pairs(src)
   end
 
 
-  even_total_array
+  total
 end
