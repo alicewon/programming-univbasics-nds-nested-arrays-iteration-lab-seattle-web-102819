@@ -54,4 +54,20 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+
+  even_total_array = []
+  total = 0
+  row_index = 0
+
+  while row_index < src.count do
+    if src[row_index]%2 == 0 then
+      even_total_array.push(src[row_index])
+    else 
+      
+    end
+      row_index += 1
+  end
+  
+
+  even_total_array
 end
