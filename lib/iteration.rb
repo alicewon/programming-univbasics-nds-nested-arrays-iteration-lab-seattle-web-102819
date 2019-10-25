@@ -10,7 +10,7 @@ def join_ingredients(src)
 new_array = []
 row_index = 0
   while row_index < src.count do
-    #element_index = 0
+    element_index = 0
       while element_index < src.count do
         first = src[row_index][0]
         #element_index +=1
