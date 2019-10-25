@@ -18,21 +18,9 @@ while row_index < src.count do
     puts "I love ${first}, and ${second} on my pizza"
     row_index+=1
   end
-
-
 end
 
 
-
-  new_array = [
-    ["I love ${first}, and ${second} on my pizza"],
-    [array[1][0], array[1][1]],
-    [array[2][0], array[2][1]]
-  ]
-
-
-return new_array
-end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
