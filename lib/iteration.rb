@@ -9,15 +9,15 @@ def join_ingredients(src)
 
 
 row_index = 0
-while row_index < array.count do
+while row_index < src.count do
   element_index = 0
-  while element_index < array[row_index].count do
-    first = array[row_index][element_index]
+  while element_index < src[row_index].count do
+    first = src[row_index][element_index]
     element_index +=1
-    second = array[row_index][element_index]
+    second = src[row_index][element_index]
     puts "I love ${first}, and ${second} on my pizza"
     row_index+=1
-  end  
+  end
 
 
 end
