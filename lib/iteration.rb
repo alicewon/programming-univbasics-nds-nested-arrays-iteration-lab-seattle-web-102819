@@ -62,7 +62,7 @@ def total_even_pairs(src)
   while row_index < src.count do
     if src[row_index][0]%2 == 0 && src[row_index][1]%2 == 0 then
       bigger = src[row_index].max
-      total += bigger
+      total += 5
     else
 
     end
