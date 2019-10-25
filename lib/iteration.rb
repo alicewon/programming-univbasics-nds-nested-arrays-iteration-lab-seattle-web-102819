@@ -7,7 +7,7 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
 
-
+new_array = []
 row_index = 0
 while row_index < src.count do
   element_index = 0
@@ -15,11 +15,11 @@ while row_index < src.count do
     first = src[row_index][element_index]
     element_index +=1
     second = src[row_index][element_index]
-    puts "I love ${first}, and ${second} on my pizza"
+    mystring = "I love ${first}, and ${second} on my pizza"
+    new_array.push(mystring)
     row_index+=1
   end
 end
-
 end
 
 
