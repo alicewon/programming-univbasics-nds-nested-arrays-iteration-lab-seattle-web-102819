@@ -62,12 +62,12 @@ def total_even_pairs(src)
   while row_index < src.count do
     if src[row_index]%2 == 0 then
       even_total_array.push(src[row_index])
-    else 
-      
+    else
+
     end
       row_index += 1
   end
-  
+
 
   even_total_array
 end
