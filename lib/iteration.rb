@@ -21,7 +21,7 @@ while row_index < array.count do
 
 
 end
-  
+
 
 
   new_array = [
