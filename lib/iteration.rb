@@ -9,18 +9,18 @@ def join_ingredients(src)
 
 new_array = []
 row_index = 0
-while row_index < src.count do
-  element_index = 0
-  while element_index < src.count do
-    first = src[row_index][element_index]
-    element_index +=1
-    second = src[row_index][element_index]
-    mystring = "I love ${first}, and ${second} on my pizza"
-    new_array.push(mystring)
-    row_index+=1
+  while row_index < src.count do
+    element_index = 0
+      while element_index < src.count do
+        first = src[row_index][element_index]
+        element_index +=1
+        second = src[row_index][element_index]
+        mystring = "I love ${first}, and ${second} on my pizza"
+        new_array.push(mystring)
+        row_index+=1
+      end
   end
-end
-return new_array
+  return new_array
 end
 
 
