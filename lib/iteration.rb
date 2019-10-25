@@ -13,13 +13,14 @@ row_index = 0
     element_index = 0
       while element_index < src.count do
         first = src[row_index][element_index]
+        element_index +=1
         second = src[row_index][element_index]
 
         mystring = "I love #{first} and #{second} on my pizza"
         new_array.push(mystring)
         
         row_index+=1
-        element_index +=1
+        
       end
   end
   return new_array
