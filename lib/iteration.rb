@@ -14,7 +14,7 @@ row_index = 0
       while element_index < src.count do
         first = src[row_index][element_index]
         second = src[row_index][element_index]
-        
+
         mystring = "I love #{first} and #{second} on my pizza"
         new_array.push(mystring)
         
